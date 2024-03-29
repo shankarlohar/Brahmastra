@@ -32,14 +32,14 @@ static char input[2048];
 int main(int arg, char **argv)
 {
     /* Print Version and Exit Information */
-    puts("Lisp Version 0.0.1");
+    puts("Maya Version 0.0.1");
     puts("Press Ctr+c to Exit\n");
 
     /* In a never ending loop */
     while (1)
     {
         /* Output our promp and get input */
-        char *input = readline("Lispy> ");
+        char *input = readline("Maya> ");
 
         /* Add input to history */
         add_history(input);
